@@ -1,0 +1,42 @@
+{
+  "GUID": "ee9568",
+  "Name": "Chess_King",
+  "Transform": {
+    "posX": -12.7017164,
+    "posY": 2.86778021,
+    "posZ": 0.8301349,
+    "rotX": -1.12010557E-05,
+    "rotY": -0.000162748271,
+    "rotZ": -4.19987964E-06,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "Automatic Promotion",
+  "Description": "",
+  "GMNotes": "",
+  "ColorDiffuse": {
+    "r": 0.9558824,
+    "g": 0.9558824,
+    "b": 0.9558824
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "AltSound": true,
+  "MaterialIndex": 2,
+  "LuaScript": "function onLoad()\n    local player = Player.getPlayers()\n    for k, v in pairs(player) do\n        givePromote(v)\n    end\nend\n\nfunction onPlayerConnect(player)\n    givePromote(player)\nend\n\nfunction givePromote(player)\n    if player.host == false and player.promoted == false then\n        player.promote()\n    end\nend\n\n--Ashzwa",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}
