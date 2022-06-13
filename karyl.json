@@ -1,0 +1,52 @@
+{
+  "GUID": "7774c8",
+  "Name": "Custom_Token",
+  "Transform": {
+    "posX": -0.146750122,
+    "posY": 6.02113438,
+    "posZ": -0.00125739,
+    "rotX": -4.79464157E-09,
+    "rotY": 180.011215,
+    "rotZ": -1.13191057E-08,
+    "scaleX": 11.5038538,
+    "scaleY": 1.0,
+    "scaleZ": 11.5038538
+  },
+  "Nickname": "",
+  "Description": "",
+  "GMNotes": "",
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomImage": {
+    "ImageURL": "https://i.imgur.com/bNPKmYt.jpg",
+    "ImageSecondaryURL": "",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomToken": {
+      "Thickness": 0.1,
+      "MergeDistancePixels": 5.0,
+      "StandUp": false,
+      "Stackable": false
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}
